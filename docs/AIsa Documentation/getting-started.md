@@ -1,5 +1,5 @@
 ---
-title: Getting Started with AISA
+title: Welcome to AIsa
 excerpt: >-
   This page will help you get started with AISA. You'll be up and running in a
   jiffy!
