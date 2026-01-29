@@ -18,3 +18,7 @@
 - twitterapi-follow
 - twitterapi-unfollow
 - twitterapi-like
+- httpsdocstwitterapiioapi-referenceendpointv3_get_account_detail
+- httpsdocstwitterapiioapi-referenceendpointv3_delete_account
+- httpsdocstwitterapiioapi-referenceendpointv3_update_profile
+- httpsdocstwitterapiioapi-referenceendpointv3_create_tweet
