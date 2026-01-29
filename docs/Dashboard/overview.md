@@ -5,10 +5,6 @@ hidden: false
 metadata:
   robots: index
 ---
-<br />
-
-# **Overview**
-
 ![][image1]
 
 The **Overview** dashboard gives you a consolidated view of your AIsa workspace. It shows your available balance, API activity, resource consumption, and model usage in real time, allowing you to quickly assess whether your integration is working as expected and how your usage is evolving.
