@@ -1,0 +1,9 @@
+- usage-costs
+- usage-audio-speeches
+- usage-audio-transcriptions
+- usage-code-interpreter-sessions
+- usage-completions
+- usage-embeddings
+- usage-images
+- usage-moderations
+- usage-vector-stores

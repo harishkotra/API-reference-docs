@@ -1,0 +1,10 @@
+- listorganizationcertificates
+- uploadcertificate
+- activateorganizationcertificates
+- deactivateorganizationcertificates
+- getcertificate
+- modifycertificate
+- deletecertificate
+- listprojectcertificates
+- activateprojectcertificates
+- deactivateprojectcertificates

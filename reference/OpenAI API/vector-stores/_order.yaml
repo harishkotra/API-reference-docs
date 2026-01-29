@@ -1,0 +1,16 @@
+- listvectorstores
+- createvectorstore
+- getvectorstore
+- modifyvectorstore
+- deletevectorstore
+- createvectorstorefilebatch
+- getvectorstorefilebatch
+- cancelvectorstorefilebatch
+- listfilesinvectorstorebatch
+- listvectorstorefiles
+- createvectorstorefile
+- getvectorstorefile
+- deletevectorstorefile
+- updatevectorstorefileattributes
+- retrievevectorstorefilecontent
+- searchvectorstore

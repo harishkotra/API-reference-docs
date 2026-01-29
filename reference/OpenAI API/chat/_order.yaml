@@ -1,0 +1,6 @@
+- listchatcompletions
+- createchatcompletion-1
+- getchatcompletion
+- updatechatcompletion
+- deletechatcompletion
+- getchatcompletionmessages
