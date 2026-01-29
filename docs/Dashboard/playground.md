@@ -5,6 +5,8 @@ hidden: false
 metadata:
   robots: index
 ---
+<Image border={false} src="https://files.readme.io/932fbca752907f324939ccc887ca08f92aa69895c5345e61a30455f082ef9c63-image.png" />
+
 <br />
 
 The **Playground** is an interactive environment for testing models available through AIsa before integrating them into your application. It allows you to send requests, adjust model parameters, inspect responses, and validate behavior in real time using the same APIs and configuration that power production requests.
@@ -14,6 +16,8 @@ This page is typically used to experiment with different models, tune generation
 ## **Model Configuration**
 
 The left panel contains all configuration options that control how requests are sent to the selected model.
+
+<Image align="center" border={false} width="30% " src="https://files.readme.io/23facb9b655990907ef0713813b0ba8c2f787f6615579e51e4720caa66b36d5d-image.png" />
 
 ### **Group**
 
