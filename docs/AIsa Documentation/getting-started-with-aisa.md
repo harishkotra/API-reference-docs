@@ -1,14 +1,12 @@
 ---
 title: Getting Started with AIsa
-excerpt: >-
-  This guide walks you through creating your first request with AIsa using the
-  Unified Model Gateway. By the end, you’ll be able to call multiple LLM
-  providers through a single API with OpenAI-compatible tooling.
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
+This guide walks you through creating your first request with AIsa using the Unified Model Gateway. By the end, you’ll be able to call multiple LLM providers through a single API with OpenAI-compatible tooling.
+
 ## **What You Need Before You Start**
 
 To get started with AIsa, you’ll need:
