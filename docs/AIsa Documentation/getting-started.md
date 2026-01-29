@@ -36,6 +36,6 @@ AIsa supports 70+ text, image, video, vision-language, and audio models while re
 
 ### Developer Tools & API Support
 
-* **API Playground**: New signups get a mininum of $1 credit instantly. Test models before paying, with live adjustments for temperature, max tokens, and top-p.
+* **API Playground**: New signups get a mininum of $5 credit instantly. Test models before paying, with live adjustments for temperature, max tokens, and top-p.
 * **REST API**: Access models via a Chat Completion-compatible REST API, with streaming support for token-by-token responses in chat applications
 * **Python & TypeScript**: Fully OpenAI compatible, just swap your  `api_key`  and  `base_url`  to switch to models of your choice.
