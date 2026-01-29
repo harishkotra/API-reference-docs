@@ -64,15 +64,23 @@ AIsa is fully compatible with OpenAI’s Chat Completions API. You only need to 
 ### **Example: Chat Completion (REST)**
 
 ```curl
-curl https://api.aisa.one/v1/chat/completions \
-  -H "Authorization: Bearer YOUR_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "model": "gpt-4.1-mini",
-    "messages": [
-      { "role": "user", "content": "Explain what an AI gateway is in one sentence." }
-    ]
-  }'
+curl --request POST \
+  --url https://api.aisa.one/v1/chat/completions \
+  --header 'Authorization: Bearer <token>' \
+  --header 'Content-Type: application/json' \
+  --data '
+{
+  "model": "gpt-4.1",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Explain what an AI gateway is in one sentence."
+    }
+  ],
+  "stream": false,
+  "logprobs": true,
+  "top_logprobs": 123
+}'
 ```
 
 The response format matches OpenAI’s schema, including `choices`, `message`, and token usage.
@@ -87,15 +95,18 @@ Because AIsa is OpenAI-compatible, you can reuse existing OpenAI SDKs with minim
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="YOUR_API_KEY",
+    api_key="<token>",
     base_url="https://api.aisa.one/v1"
 )
 
 response = client.chat.completions.create(
-    model="claude-3.5-sonnet",
+    model="gpt-4.1",
     messages=[
-        {"role": "user", "content": "Write a haiku about unified APIs."}
-    ]
+        {"role": "user", "content": "Explain what an AI gateway is in one sentence."}
+    ],
+    stream=False,
+    logprobs=True,
+    top_logprobs=5
 )
 
 print(response.choices[0].message.content)
@@ -112,8 +123,13 @@ const client = new OpenAI({
 });
 
 const response = await client.chat.completions.create({
-  model: "gpt-4.1-mini",
-  messages: [{ role: "user", content: "What is AIsa?" }],
+  model: "gpt-4.1",
+  messages: [
+    { role: "user", content: "Explain what an AI gateway is in one sentence." }
+  ],
+  stream: false,
+  logprobs: true,
+  top_logprobs: 5,
 });
 
 console.log(response.choices[0].message.content);
