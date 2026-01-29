@@ -21,7 +21,15 @@ New accounts receive **$5 in free credits**, which can be used immediately in th
 
 1. Sign up at **aisa.one**
 2. Open the dashboard
+
+   <Image border={false} src="https://files.readme.io/dba3bccf8a7581ac5c61446cc0856585544b05bd532b4f7627c756df87745e09-Screenshot_2026-01-29_184007.png" />
+
+   <br />
 3. Generate an API key from the **API Keys** section
+
+   <Image border={false} src="https://files.readme.io/4b39b4666531c0b05c371af2649bbb4c22384128d9db92ec1347e8c9d522929f-image.png" />
+
+   <br />
 
 Your API key authenticates all requests and is tied to your usage and billing. Keep it secure and do not expose it in client-side code.
 
