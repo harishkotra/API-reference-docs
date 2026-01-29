@@ -1,0 +1,4 @@
+---
+title: /collections
+hidden: false
+---

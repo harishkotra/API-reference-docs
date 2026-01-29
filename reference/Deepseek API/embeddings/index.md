@@ -1,0 +1,4 @@
+---
+title: /embeddings
+hidden: false
+---

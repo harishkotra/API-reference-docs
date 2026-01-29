@@ -1,0 +1,13 @@
+- analyticssearch_analytics
+- authkeys
+- collections
+- collectionscollection_id
+- collectionscollection_iditems
+- collectionscollection_iditemsitem_id
+- datasets
+- datasetsdataset_id
+- embeddings
+- health
+- ingest
+- jobsjob_id
+- search-2
