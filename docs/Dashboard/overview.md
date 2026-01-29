@@ -5,11 +5,11 @@ hidden: false
 metadata:
   robots: index
 ---
-<Image border={false} src="https://files.readme.io/1d5f87dfa09e1b64da7a98e9019570d333af685813c0bb595162f2a09cbf7c20-image.png" />
+The **Overview** dashboard gives you a consolidated view of your AIsa workspace. It shows your available balance, API activity, resource consumption, and model usage in real time, allowing you to quickly assess whether your integration is working as expected and how your usage is evolving.
+
+<Image border={false} src="https://files.readme.io/182b273da55206380d1aa5bb518f5d3ca44af92142421fc948e65aaf544f0acd-Screenshot_2026-01-29_184007.png" />
 
 <br />
-
-The **Overview** dashboard gives you a consolidated view of your AIsa workspace. It shows your available balance, API activity, resource consumption, and model usage in real time, allowing you to quickly assess whether your integration is working as expected and how your usage is evolving.
 
 This page is typically the first place to check after setting up an API key, sending test requests, or monitoring ongoing usage in production.
 
@@ -84,3 +84,13 @@ System Notice displays platform-level announcements or operational messages rele
 ## **Service Status**
 
 Service Status shows uptime and monitoring information for AIsa services associated with your account. If monitoring is not configured, this section will not display any data.
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<br />
