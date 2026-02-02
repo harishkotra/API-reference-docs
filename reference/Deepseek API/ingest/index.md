@@ -1,4 +1,0 @@
----
-title: /ingest
-hidden: false
----
