@@ -5,6 +5,7 @@
 - get_twitter-user-followers
 - get_twitter-user-followings
 - get_twitter-user-mentions
+- get_twitter-user-check-follow-relationship
 - httpsdocstwitterapiioapi-referenceendpointget_user_by_username
 - httpsdocstwitterapiioapi-referenceendpointget_user_last_tweets
 - httpsdocstwitterapiioapi-referenceendpointget_user_followers
