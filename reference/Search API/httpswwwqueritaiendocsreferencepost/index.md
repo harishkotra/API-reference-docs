@@ -1,4 +1,4 @@
 ---
-title: https://www.querit.ai/en/docs/reference/post
+title: Querit AI Search
 hidden: false
 ---
