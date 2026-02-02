@@ -2,3 +2,4 @@
 - get_twitter-tweet-replies
 - get_twitter-tweet-quotes
 - get_twitter-tweet-retweeters
+- get_twitter-tweet-thread-context
