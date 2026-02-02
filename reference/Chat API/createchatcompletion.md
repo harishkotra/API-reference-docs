@@ -1,8 +1,11 @@
 ---
 title: Create chat completion
 excerpt: >-
-  Generate chat responses with support for images, streaming, function calling,
-  and logprobs.
+  **Starting a new project?** We recommend trying
+  [Responses](https://platform.openai.com/docs/api-reference/responses) to take
+  advantage of the latest OpenAI platform features. Compare [Chat Completions
+  with
+  Responses](https://platform.openai.com/docs/guides/responses-vs-chat-completions?api-mode=responses)
 api:
   file: openai-chat.json
   operationId: createChatCompletion
