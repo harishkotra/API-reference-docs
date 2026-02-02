@@ -1,4 +1,4 @@
 ---
-title: /chat/completions
+title: Openai Chat
 hidden: false
 ---
