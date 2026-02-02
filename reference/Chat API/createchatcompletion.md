@@ -1,5 +1,5 @@
 ---
-title: Create chat completion
+title: Openai Chat
 excerpt: >-
   **Starting a new project?** We recommend trying
   [Responses](https://platform.openai.com/docs/api-reference/responses) to take
