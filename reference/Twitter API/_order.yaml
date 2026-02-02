@@ -4,6 +4,7 @@
 - get_twitter-user-last-tweets
 - get_twitter-user-followers
 - get_twitter-user-followings
+- get_twitter-user-mentions
 - httpsdocstwitterapiioapi-referenceendpointget_user_by_username
 - httpsdocstwitterapiioapi-referenceendpointget_user_last_tweets
 - httpsdocstwitterapiioapi-referenceendpointget_user_followers
