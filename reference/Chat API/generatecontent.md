@@ -1,5 +1,5 @@
 ---
-title: Generate content using the specified Gemini model
+title: Google Gemini Chat
 api:
   file: gemini-openapi.json
   operationId: generateContent
