@@ -3,6 +3,7 @@
 - post_tavily-extract
 - post_tavily-crawl
 - httpsdocstavilycomdocumentationapi-referenceendpointextract
+- post_tavily-search
 - httpsdocstavilycomdocumentationapi-referenceendpointsearch
 - searchfull
 - searchsmart
