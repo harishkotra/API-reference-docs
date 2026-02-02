@@ -1,15 +1,13 @@
 ---
 title: Openai Chat
+excerpt: >-
+  **Starting a new project?** We recommend trying
+  [Responses](https://platform.openai.com/docs/api-reference/responses) to take
+  advantage of the latest OpenAI platform features. Compare [Chat Completions
+  with
+  Responses](https://platform.openai.com/docs/guides/responses-vs-chat-completions?api-mode=responses)
 hidden: false
 ---
-<br />
-
-> **Starting a new project?** We recommend trying [Responses](https://platform.openai.com/docs/api-reference/responses)
-> to take advantage of the latest OpenAI platform features. Compare
-> [Chat Completions with Responses](https://platform.openai.com/docs/guides/responses-vs-chat-completions?api-mode=responses).
-
-***
-
 Creates a model response for the given chat conversation. Learn more in the
 [text generation](https://platform.openai.com/docs/guides/text-generation), [vision](https://platform.openai.com/docs/guides/vision),
 and [audio](https://platform.openai.com/docs/guides/audio) guides.
