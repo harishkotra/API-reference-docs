@@ -1,5 +1,5 @@
 ---
-title: Search API
+title: Querit AI Search
 excerpt: Search smarter and build faster with Querit.ai.
 api:
   file: querit.json
