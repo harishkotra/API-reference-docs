@@ -13,7 +13,6 @@
 - post_twitter-create-tweet-v2
 - get_twitter-get-dm-history-by-user-id
 - post_twitter-send-dm-to-user
-- httpsdocstwitterapiioapi-referenceendpointget_dm_history_by_user_id
 - httpsdocstwitterapiioapi-referenceendpointsend_dm_v2
 - twitterapi-retweet
 - twitterapi-delete
