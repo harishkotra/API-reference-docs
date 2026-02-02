@@ -1,4 +1,4 @@
 ---
-title: https://docs.tavily.com/documentation/api-reference/endpoint/extract
+title: Tavily Extract
 hidden: false
 ---
