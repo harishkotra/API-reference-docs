@@ -1,6 +1,5 @@
 - get_twitter-user-about
 - get_twitter-user-batch-info-by-ids
-- httpsdocstwitterapiioapi-referenceendpointbatch_get_user_by_userids
 - httpsdocstwitterapiioapi-referenceendpointget_user_by_username
 - httpsdocstwitterapiioapi-referenceendpointget_user_last_tweets
 - httpsdocstwitterapiioapi-referenceendpointget_user_followers
