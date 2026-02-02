@@ -5,7 +5,6 @@
 - trend-endpoint
 - spaces-endpoint
 - post-action-endpoint-v3
-- get_twitter-get-dm-history-by-user-id
 - twitterapi-delete
 - twitterapi-follow
 - twitterapi-unfollow
