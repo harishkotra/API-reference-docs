@@ -1,4 +1,4 @@
 ---
-title: Search
+title: Tavily Search
 hidden: false
 ---
