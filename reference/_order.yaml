@@ -1,5 +1,6 @@
 - ReadMeConfig
 - Chat API
+- Video API
 - Anthropic Claude API
 - Cohere Rerank API
 - Financial Datasets API – Analyst Estimates (Earnings Per Share)
@@ -7,7 +8,6 @@
 - OpenAPI Plant Store
 - Financial Datasets API
 - Cloudsway Search API
-- Video API
 - YouTube Search API
 - Interest Rates Snapshot
 - TXYZ Platform API
