@@ -1,6 +1,6 @@
 ---
-title: Scholar Search
-excerpt: Perform academic paper search using Google Scholar or similar sources
+title: Web Search
+excerpt: Perform web search and return structured results
 api:
   file: platform-txyz-openapi.json
   operationId: searchWeb
