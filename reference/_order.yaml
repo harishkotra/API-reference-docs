@@ -2,6 +2,7 @@
 - Chat API
 - Video API
 - Search API
+- Scholar API
 - Anthropic Claude API
 - Cohere Rerank API
 - Financial Datasets API – Analyst Estimates (Earnings Per Share)
@@ -9,7 +10,6 @@
 - OpenAPI Plant Store
 - Financial Datasets API
 - Interest Rates Snapshot
-- Scholar API
 - Twitter API
 - Twitter API Aggregated
 - Twitter API Aggregated Documentation
