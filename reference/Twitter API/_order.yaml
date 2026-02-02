@@ -1,3 +1,4 @@
+- user-endpoints
 - get_twitter-user-about
 - get_twitter-user-batch-info-by-ids
 - get_twitter-user-info
@@ -22,4 +23,3 @@
 - httpsdocstwitterapiioapi-referenceendpointv3_delete_account
 - httpsdocstwitterapiioapi-referenceendpointv3_update_profile
 - httpsdocstwitterapiioapi-referenceendpointv3_create_tweet
-- user-endpoints
