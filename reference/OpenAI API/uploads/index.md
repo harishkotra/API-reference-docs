@@ -1,4 +1,0 @@
----
-title: Uploads
-hidden: false
----

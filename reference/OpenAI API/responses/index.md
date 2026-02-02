@@ -1,4 +1,0 @@
----
-title: Responses
-hidden: false
----
