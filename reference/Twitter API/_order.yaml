@@ -5,7 +5,6 @@
 - trend-endpoint
 - spaces-endpoint
 - post-action-endpoint-v3
-- twitterapi-follow
 - twitterapi-unfollow
 - twitterapi-like
 - httpsdocstwitterapiioapi-referenceendpointv3_get_account_detail
