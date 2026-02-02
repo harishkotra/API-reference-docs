@@ -1,4 +1,4 @@
 ---
-title: /models/{model}:generateContent
+title: Google Gemini Chat
 hidden: false
 ---
