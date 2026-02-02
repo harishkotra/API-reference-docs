@@ -1,5 +1,4 @@
 - user-endpoints
-- get_twitter-user-followings
 - get_twitter-user-mentions
 - get_twitter-user-check-follow-relationship
 - get_twitter-user-search

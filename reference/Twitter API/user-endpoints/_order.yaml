@@ -3,3 +3,4 @@
 - get_twitter-user-info
 - get_twitter-user-last-tweets
 - get_twitter-user-followers
+- get_twitter-user-followings
