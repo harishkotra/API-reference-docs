@@ -8,7 +8,6 @@
 - post_twitter-create-tweet-v2
 - get_twitter-get-dm-history-by-user-id
 - post_twitter-send-dm-to-user
-- twitterapi-retweet
 - twitterapi-delete
 - twitterapi-follow
 - twitterapi-unfollow
