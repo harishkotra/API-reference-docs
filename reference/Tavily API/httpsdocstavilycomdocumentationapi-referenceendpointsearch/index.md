@@ -1,4 +1,4 @@
 ---
-title: https://docs.tavily.com/documentation/api-reference/endpoint/search
+title: Tavily Search
 hidden: false
 ---
