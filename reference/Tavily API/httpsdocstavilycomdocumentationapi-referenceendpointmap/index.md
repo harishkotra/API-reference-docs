@@ -1,4 +1,4 @@
 ---
-title: https://docs.tavily.com/documentation/api-reference/endpoint/map
+title: Tavily Map
 hidden: false
 ---
