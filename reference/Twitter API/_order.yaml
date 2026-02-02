@@ -13,7 +13,6 @@
 - post_twitter-create-tweet-v2
 - get_twitter-get-dm-history-by-user-id
 - post_twitter-send-dm-to-user
-- httpsdocstwitterapiioapi-referenceendpointget_user_mention
 - httpsdocstwitterapiioapi-referenceendpointcheck_follow_relationship
 - httpsdocstwitterapiioapi-referenceendpointsearch_user
 - httpsdocstwitterapiioapi-referenceendpointget_user_verified_followers
