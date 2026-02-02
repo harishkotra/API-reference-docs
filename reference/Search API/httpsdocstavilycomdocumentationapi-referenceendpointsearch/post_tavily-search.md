@@ -1,5 +1,5 @@
 ---
-title: Execute a search query using Tavily Search.
+title: Tavily Search
 api:
   file: tavily.json
   operationId: post_tavily-search
