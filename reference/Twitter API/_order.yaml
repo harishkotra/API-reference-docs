@@ -12,6 +12,7 @@
 - post_twitter-upload-media-v2
 - post_twitter-create-tweet-v2
 - get_twitter-get-dm-history-by-user-id
+- post_twitter-send-dm-to-user
 - httpsdocstwitterapiioapi-referenceendpointget_user_by_username
 - httpsdocstwitterapiioapi-referenceendpointget_user_last_tweets
 - httpsdocstwitterapiioapi-referenceendpointget_user_followers
