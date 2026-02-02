@@ -1,5 +1,4 @@
 - user-endpoints
-- get_twitter-user-verifiedfollowers
 - post_twitter-user-login-v3
 - post_twitter-upload-media-v2
 - post_twitter-create-tweet-v2
