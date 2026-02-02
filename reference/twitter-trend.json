@@ -329,26 +329,6 @@
         }
       }
     },
-    "/oapi/my/info": {
-      "get": {
-        "tags": [
-          "https://docs.twitterapi.io/api-reference/endpoint/get_my_info"
-        ],
-        "summary": "Get My Account Info",
-        "description": "Retrieve information about the authenticated user's account.",
-        "responses": {
-          "200": {
-            "description": "Successful response",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/MyInfoResponse"
-                }
-              }
-            }
-          }
-        }
-      }
-    }
+    "/oapi/my/info": {}
   }
 }
