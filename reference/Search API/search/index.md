@@ -1,4 +1,4 @@
 ---
-title: Tavily Search
+title: Scholar API
 hidden: false
 ---
