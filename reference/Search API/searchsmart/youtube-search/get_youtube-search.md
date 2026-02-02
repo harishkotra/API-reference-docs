@@ -1,5 +1,5 @@
 ---
-title: YouTube Search
+title: YouTube Search API
 excerpt: Perform a YouTube search via SearchApi
 api:
   file: youte-search.json
