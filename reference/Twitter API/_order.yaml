@@ -5,7 +5,6 @@
 - trend-endpoint
 - spaces-endpoint
 - post-action-endpoint-v3
-- post_twitter-upload-media-v2
 - post_twitter-create-tweet-v2
 - get_twitter-get-dm-history-by-user-id
 - post_twitter-send-dm-to-user
