@@ -73,74 +73,7 @@
         }
       }
     },
-    "/twitter/delete_tweet_v2": {
-      "post": {
-        "tags": [
-          "twitterapi-delete"
-        ],
-        "summary": "Delete a Tweet",
-        "operationId": "deleteTweet",
-        "security": [
-          {
-            "bearerAuth": []
-          }
-        ],
-        "requestBody": {
-          "required": true,
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-                "required": [
-                  "login_cookies",
-                  "tweet_id",
-                  "proxy"
-                ],
-                "properties": {
-                  "login_cookies": {
-                    "type": "string",
-                    "description": "The login cookies of the user. Must be set."
-                  },
-                  "tweet_id": {
-                    "type": "string",
-                    "description": "The id of the tweet to delete. Must be set."
-                  },
-                  "proxy": {
-                    "type": "string",
-                    "description": "The proxy to use. Required. Example: http://username:password@ip:port"
-                  }
-                }
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "status": {
-                      "type": "string",
-                      "description": "Status of the request. success or error"
-                    },
-                    "msg": {
-                      "type": "string",
-                      "description": "Message of the request. error message"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad Request"
-          }
-        }
-      }
-    },
+    "/twitter/delete_tweet_v2": {},
     "/twitter/follow_user_v2": {
       "post": {
         "tags": [
