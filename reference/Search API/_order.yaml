@@ -4,5 +4,6 @@
 - post_tavily-search
 - httpsdocstavilycomdocumentationapi-referenceendpointextract
 - post_tavily-crawl
+- get_search-full
 - searchfull
 - searchsmart
