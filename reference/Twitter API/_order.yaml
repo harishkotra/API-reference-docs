@@ -16,6 +16,7 @@
 - httpsdocstwitterapiioapi-referenceendpointv3_update_profile
 - httpsdocstwitterapiioapi-referenceendpointv3_create_tweet
 - communities-endpoint
+- get_twitter-community-moderators
 - trend-endpoint
 - spaces-endpoint
 - post-action-endpoint-v3
