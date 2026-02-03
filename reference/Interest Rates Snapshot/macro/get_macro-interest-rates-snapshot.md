@@ -1,5 +1,5 @@
 ---
-title: Get latest interest rate data snapshot
+title: Snapshot
 excerpt: >-
   Retrieve the most recent published interest rate data from central banks
   worldwide.
