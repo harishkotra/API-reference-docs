@@ -1,5 +1,5 @@
 ---
-title: Get financial metrics snapshot
+title: Snapshot
 excerpt: >-
   Get a real-time snapshot of key financial metrics and ratios for a ticker,
   including valuation, profitability, efficiency, liquidity, leverage, growth,
