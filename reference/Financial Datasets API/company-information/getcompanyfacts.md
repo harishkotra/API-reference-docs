@@ -1,5 +1,5 @@
 ---
-title: Get company facts
+title: Facts
 excerpt: Get company facts for a ticker.
 api:
   file: openapi-financial.json
