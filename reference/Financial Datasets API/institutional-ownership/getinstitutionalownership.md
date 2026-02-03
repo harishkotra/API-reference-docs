@@ -1,5 +1,5 @@
 ---
-title: Get the equity holdings of an investment manager
+title: Ownership
 excerpt: >-
   Get institutional ownership by investor or ticker. Requires either investor or
   ticker parameter, but not both.
