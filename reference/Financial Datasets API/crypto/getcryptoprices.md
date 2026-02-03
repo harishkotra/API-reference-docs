@@ -1,5 +1,5 @@
 ---
-title: Get historical crypto price data
+title: Historical
 excerpt: >-
   Get ranged price data for a cryptocurrency to power price charts and analyze
   price movements.
