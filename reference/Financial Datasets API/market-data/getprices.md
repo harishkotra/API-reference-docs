@@ -1,5 +1,5 @@
 ---
-title: Get historical price data
+title: Historical
 excerpt: >-
   Get ranged price data for a ticker to power stock charts and analyze price
   movements.
