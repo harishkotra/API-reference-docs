@@ -855,51 +855,7 @@
         }
       }
     },
-    "/prices/snapshot": {
-      "get": {
-        "tags": [
-          "Market Data"
-        ],
-        "operationId": "getPriceSnapshot",
-        "summary": "Get price snapshot",
-        "description": "Get the real-time price snapshot for a ticker.",
-        "parameters": [
-          {
-            "name": "ticker",
-            "in": "query",
-            "description": "The ticker symbol.",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Price snapshot response",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/PriceSnapshotResponse"
-                }
-              }
-            }
-          },
-          "400": {
-            "$ref": "#/components/responses/BadRequestError"
-          },
-          "401": {
-            "$ref": "#/components/responses/UnauthorizedError"
-          },
-          "402": {
-            "$ref": "#/components/responses/PaymentRequiredError"
-          },
-          "404": {
-            "$ref": "#/components/responses/NotFoundError"
-          }
-        }
-      }
-    },
+    "/prices/snapshot": {},
     "/crypto/prices/snapshot": {
       "get": {
         "tags": [
