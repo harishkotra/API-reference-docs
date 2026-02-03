@@ -1,4 +1,0 @@
----
-title: /plants
-hidden: false
----
