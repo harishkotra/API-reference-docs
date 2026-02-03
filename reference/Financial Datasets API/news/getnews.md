@@ -1,5 +1,5 @@
 ---
-title: Get real-time and historical news
+title: Company News
 excerpt: Get real-time and historical news for a ticker.
 api:
   file: openapi-financial.json
