@@ -1,5 +1,5 @@
 ---
-title: Get income statements
+title: Income Statements
 excerpt: Get income statements for a ticker.
 api:
   file: openapi-financial.json
