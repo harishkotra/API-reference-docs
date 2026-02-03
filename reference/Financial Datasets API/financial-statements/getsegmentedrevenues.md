@@ -1,5 +1,5 @@
 ---
-title: Get segmented revenue data
+title: Segmented Revenues
 excerpt: Get detailed, segmented revenue data for a ticker.
 api:
   file: openapi-financial.json
