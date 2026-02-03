@@ -1,5 +1,5 @@
 ---
-title: Get balance sheets
+title: Balance Sheets
 excerpt: Get balance sheets for a ticker.
 api:
   file: openapi-financial.json
