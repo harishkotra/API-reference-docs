@@ -1,5 +1,5 @@
 ---
-title: Search specific financial metrics
+title: Search Financials
 excerpt: >-
   Search for specific financial metrics across income statements, balance
   sheets, and cash flow statements.
