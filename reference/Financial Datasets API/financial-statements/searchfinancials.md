@@ -1,5 +1,5 @@
 ---
-title: Search financial statements
+title: Stock Screener
 excerpt: >-
   Search for financial data across income statements, balance sheets, and cash
   flow statements using filters.
