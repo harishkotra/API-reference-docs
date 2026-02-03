@@ -1,4 +1,4 @@
 ---
-title: Crypto
+title: Crypto Prices
 hidden: false
 ---
