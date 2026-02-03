@@ -1,5 +1,5 @@
 ---
-title: Get historical interest rates
+title: Historical
 excerpt: >-
   Retrieve historical interest rate data for a specified central bank over an
   optional date range.
