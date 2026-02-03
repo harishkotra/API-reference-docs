@@ -1,4 +1,0 @@
----
-title: Financials
-hidden: false
----
