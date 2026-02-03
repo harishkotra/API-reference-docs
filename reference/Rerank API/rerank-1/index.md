@@ -1,4 +1,0 @@
----
-title: /rerank
-hidden: false
----
