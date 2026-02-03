@@ -1,4 +1,4 @@
 ---
-title: Market Data
+title: Stock Prices
 hidden: false
 ---
