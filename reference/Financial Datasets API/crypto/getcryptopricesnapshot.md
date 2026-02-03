@@ -1,5 +1,5 @@
 ---
-title: Historical
+title: Snapshot
 excerpt: Get the real-time price snapshot for a cryptocurrency.
 api:
   file: openapi-financial.json
