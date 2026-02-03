@@ -1,4 +1,0 @@
----
-title: /messages
-hidden: false
----
