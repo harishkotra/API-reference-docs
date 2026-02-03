@@ -1,5 +1,5 @@
 ---
-title: Get Analyst Estimates by Ticker
+title: Earnings Per Share
 excerpt: Fetch earnings per share estimates for a specified stock ticker and period.
 api:
   file: Earnings.json
