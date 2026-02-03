@@ -1,5 +1,5 @@
 ---
-title: Get SEC filings
+title: Filings
 excerpt: Get SEC filings for a company.
 api:
   file: openapi-financial.json
