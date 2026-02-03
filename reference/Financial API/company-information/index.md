@@ -1,4 +1,4 @@
 ---
-title: Company Information
+title: Company
 hidden: false
 ---
