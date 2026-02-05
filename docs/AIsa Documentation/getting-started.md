@@ -32,8 +32,6 @@ AIsa supports 70+ text, image, video, vision-language, and audio models while re
 | Deepseek   | Deepseek  |
 | Grok       | xAI       |
 
-<br />
-
 ### Developer Tools & API Support
 
 * **API Playground**: New signups get a mininum of $5 credit instantly. Test models before paying, with live adjustments for temperature, max tokens, and top-p.
