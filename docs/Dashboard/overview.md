@@ -84,13 +84,3 @@ System Notice displays platform-level announcements or operational messages rele
 ## **Service Status**
 
 Service Status shows uptime and monitoring information for AIsa services associated with your account. If monitoring is not configured, this section will not display any data.
-
-<br />
-
-<br />
-
-<br />
-
-<br />
-
-<br />
