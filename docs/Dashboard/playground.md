@@ -5,19 +5,21 @@ hidden: false
 metadata:
   robots: index
 ---
-The **Playground** is an interactive environment for testing models available through AIsa before integrating them into your application. It allows you to send requests, adjust model parameters, inspect responses, and validate behavior in real time using the same APIs and configuration that power production requests.
+The Playground is an interactive environment for testing models available through AISA before integrating them into your application. It allows you to send requests, adjust model parameters, inspect responses, and validate behavior in real time using the same APIs and configuration used for production requests.
 
 <Image border={false} src="https://files.readme.io/70d1c75e2f77d9f4537c4967c77a28eacea29c71ed030dabe3f32cf976c0bae1-Screenshot_2026-01-29_184144.png" />
 
-<br />
+You can start using the Playground immediately after signing up. New accounts receive **free credits**, and the Playground can be used **without generating an API key**.
 
-This page is typically used to experiment with different models, tune generation parameters, and verify outputs during development.
+This page is commonly used to experiment with different models, tune generation parameters, and verify outputs during development.
 
 ## **Model Configuration**
 
-The left panel contains all configuration options that control how requests are sent to the selected model.
+The left panel contains configuration options that control how requests are sent to the selected model.
 
 <Image align="center" border={false} width="30% " src="https://files.readme.io/23facb9b655990907ef0713813b0ba8c2f787f6615579e51e4720caa66b36d5d-image.png" />
+
+Available options may change depending on the selected model. Not all models support the same parameters or input types.
 
 ### **Group**
 
@@ -31,45 +33,51 @@ The **Model** selector allows you to choose which model will handle the request.
 
 Changing the model does not require modifying the request format. Only the model identifier changes.
 
+Configuration options and filters update dynamically based on the selected model. Parameters shown for one model may not be available for another.
+
 ### **Custom Request Body Mode**
 
-When enabled, **Custom Request Body Mode** allows you to manually define the full JSON request body. This is useful for advanced use cases where you want direct control over parameters not exposed through the UI controls.
+When enabled, **Custom Request Body Mode** allows you to manually define the full JSON request body. This is useful for advanced use cases where you need direct control over parameters that are not exposed through the UI.
 
-When disabled, requests are generated automatically based on the selected parameters.
+When disabled, requests are automatically generated based on the selected configuration options.
 
 ### **Image URLs**
 
-The **Image URLs** option enables multimodal input by allowing you to attach image URLs to the request. This is used with models that support image understanding or vision-language capabilities.
+The **Image URLs** option enables multimodal input by allowing you to attach image URLs to the request.
 
-When enabled, you can provide one or more image URLs that will be included alongside the text prompt.
+This is used with models that support image understanding or vision-language capabilities. When enabled, you can provide one or more image URLs that are sent alongside the text prompt.
+
+This option is only available for models that support image input.
 
 ## **Generation Parameters**
 
-These controls adjust how the model generates responses. Changes take effect immediately for new requests.
+These controls affect how the model generates responses. Changes apply immediately to new requests.
+
+Available generation parameters vary by model.
 
 ### **Temperature**
 
-**Temperature** controls randomness in the model’s output.
+Temperature controls the randomness of the model’s output.
 
-Lower values produce more deterministic and focused responses, while higher values increase creativity and variation.
+Lower values produce more deterministic and focused responses. Higher values increase creativity and variation.
 
 ### **Top P**
 
-**Top P** (nucleus sampling) limits token selection to the smallest possible set whose cumulative probability meets the specified threshold. This affects how diverse the model’s vocabulary choices are during generation.
+Top P (nucleus sampling) limits token selection to the smallest possible set whose cumulative probability meets the specified threshold.
 
-Top P is commonly used instead of temperature, or in combination with lower temperature values.
+This influences how diverse the model’s vocabulary choices are during generation. Top P is commonly used instead of temperature, or in combination with lower temperature values.
 
 ### **Frequency Penalty**
 
-**Frequency Penalty** reduces the likelihood of repeated words or phrases appearing in the response. Higher values encourage less repetition across the generated output.
+Frequency Penalty reduces the likelihood of repeated words or phrases appearing in the response. Higher values encourage less repetition across the generated output.
 
 ### **Presence Penalty**
 
-**Presence Penalty** encourages the model to introduce new concepts rather than continuing existing ones. Increasing this value makes the model more likely to explore new topics in longer responses.
+Presence Penalty encourages the model to introduce new concepts rather than continuing existing ones. Increasing this value makes the model more likely to explore new topics in longer responses.
 
 ### **Max Tokens**
 
-**Max Tokens** sets the maximum number of tokens the model is allowed to generate in the response. This helps control response length and cost.
+Max Tokens sets the maximum number of tokens the model can generate in a response. This helps control response length and usage cost.
 
 If not explicitly set, the model’s default limits apply.
 
@@ -79,22 +87,30 @@ The main panel on the right is where you interact with the model.
 
 * Enter your prompt in the input field at the bottom
 * Submit the request to receive a response from the selected model
-* View the generated output in the conversation view
+* View generated output in the conversation view
 
-Responses appear exactly as they would when using the API, making this view useful for validating prompt behavior and output quality.
+Responses appear exactly as they would when using the API, making the Playground useful for validating prompt behavior and output quality.
 
 ## **Debug Mode**
 
-The **Show debug** option reveals additional request and response details. This includes raw payloads and internal metadata, which can be useful when troubleshooting unexpected behavior or validating request structure.
+The **Show debug** option reveals additional request and response details.
+
+This includes raw request payloads and internal metadata, which can be helpful when troubleshooting unexpected behavior or validating request structure.
 
 ## **Import and Export**
 
-The Playground supports **Import** and **Export** actions to save or reuse configurations.
+The Playground supports importing and exporting configurations to make testing reusable.
 
-* **Export** allows you to download the current configuration and request setup
-* **Import** allows you to load a previously saved configuration
+* **Export** downloads the current configuration and request setup
+* **Import** loads a previously saved configuration
 
-This is useful for sharing setups across teams or reusing test scenarios.
+This is useful for sharing test setups across teams or reusing common scenarios.
+
+## **Usage and Billing**
+
+All requests made in the Playground count toward usage and billing, the same as API requests.
+
+New users can begin testing immediately using the free credits provided at signup, without creating or managing API keys.
 
 ## **What the Playground Is Best Used For**
 
@@ -105,5 +121,3 @@ The Playground is intended for:
 * Testing multimodal inputs
 * Debugging prompt behavior
 * Validating request configuration without writing code
-
-All requests made in the Playground count toward usage and billing, just like API requests.
