@@ -5,4 +5,5 @@ api:
   file: Earnings.json
   operationId: get_analyst-estimates
 hidden: false
+icon: far fa-pen
 ---
