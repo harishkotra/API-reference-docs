@@ -19,11 +19,16 @@ New accounts receive **$5 in free credits**, which can be used immediately in th
 
 ## **Step 1: Create an Account & Get an API Key**
 
-1. Sign up at **aisa.one**
+1. Sign up at **aisa.one**:  
+
+   You can sign up with:
+   1. Email
+   2. Google Oauth
+   3. GitHub Oauth
 
 <Image align="center" border={false} src="https://files.readme.io/71143782d12eb48619880b09abe85360f8d3609e9e5c555369237238752d58d1-SSO.gif" />
 
-2. Open the dashboard
+2. Once registered, you will be redirected to the dashboard.
 
 <Image border={false} src="https://files.readme.io/dba3bccf8a7581ac5c61446cc0856585544b05bd532b4f7627c756df87745e09-Screenshot_2026-01-29_184007.png" />
 
