@@ -11,9 +11,9 @@ Building AI apps is currently a fragmented mess of vendor lock-in, disparate API
 
 **Unified model gateway:** A single API endpoint for routing requests to hundreds of state-of-the-art LLMs, with consistent auth, schema, and observability across providers. (Live)
 
-**Licensed data connectors:** API or MCP servers for secure and compliant access to licensed datasets. (Coming soon)
+**Web search tools:** API or MCP servers to integrate real-time web search into your apps. (Live)
 
-**Web search tools:** API or MCP servers to integrate real-time web search into your apps. (Coming soon)
+**Licensed data connectors:** API or MCP servers for secure and compliant access to licensed datasets. (Coming soon)
 
 **Billing and metering stack:** Highly configurable billing APIs with fine-grained usage metering, backed by low-latency micropayment infrastructure for per-request and per-token charging. (Coming soon)
 
@@ -21,7 +21,7 @@ Building AI apps is currently a fragmented mess of vendor lock-in, disparate API
 
 One API for hundreds of models.
 
-AIsa supports 70+ text, image, video, vision-language, and audio models while remaining fully API-compatible with OpenAI and other ecosystems. Explore and browse the full catalogue of models and providers as well as pricing [on our website](https://marketplace.aisa.one/pricing).
+AIsa supports 50+ text, image, video, vision-language, and audio models while remaining fully API-compatible with OpenAI and other ecosystems. Explore and browse the full catalogue of models and providers as well as pricing [on our website](https://marketplace.aisa.one/pricing).
 
 | LLM Family | Developer |
 | ---------- | --------- |
