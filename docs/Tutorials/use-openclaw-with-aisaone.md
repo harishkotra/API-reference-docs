@@ -95,7 +95,7 @@ Update the  `primary`  model and add it to the  `models`  list. The recommended 
 After updating your configuration, start or restart OpenClaw:
 
 ```bash
-openclaw  gateway  run
+openclaw gateway restart
 ```
 
 Your agents will now use AIsa.one to route requests to your chosen model.
