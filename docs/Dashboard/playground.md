@@ -7,7 +7,7 @@ metadata:
 ---
 The Playground is an interactive environment for testing models available through AISA before integrating them into your application. It allows you to send requests, adjust model parameters, inspect responses, and validate behavior in real time using the same APIs and configuration used for production requests.
 
-<Image border={false} src="https://files.readme.io/70d1c75e2f77d9f4537c4967c77a28eacea29c71ed030dabe3f32cf976c0bae1-Screenshot_2026-01-29_184144.png" />
+<Image align="center" border={false} src="https://files.readme.io/9f5feddc948a73b5540f3dc3b32cc630d26491d7776a25d79b9fc4f65aeb4894-Sid_Playground.gif" />
 
 You can start using the Playground immediately after signing up. New accounts receive **free credits**, and the Playground can be used **without generating an API key**.
 
