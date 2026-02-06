@@ -4,7 +4,7 @@ excerpt: >-
   This tutorial outlines how you can make AIsa as your default model provider in
   OpenClaw.
 deprecated: false
-hidden: true
+hidden: false
 icon: 🦞
 metadata:
   robots: index
