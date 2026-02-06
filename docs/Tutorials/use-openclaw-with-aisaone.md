@@ -49,7 +49,7 @@ Add your AIsa.one API key to your  `~/.openclaw/openclaw.json`  (or set it as an
           { "id": "gemini-2.5-flash", "name": "Gemini 2.5 Flash" },
           { "id": "deepseek-v3", "name": "DeepSeek V3" },
           { "id": "qwen3-max", "name": "Qwen3 Max" }
-          // Add other models here...
+          // Add other models here based on your need...
         ]
       }
     }
@@ -77,7 +77,7 @@ That's it! OpenClaw now knows about the `aisa` provider. You configure it in `mo
 
 ### Step 3: Choose Your Model
 
-Update the  `primary`  model and add it to the  `models`  list. The recommended model for AIsa.one is  `gpt-4.1`.
+Update the  `primary`  model and add it to the  `models`  list. Let’s use  `gpt-4.1` for this setup. You can find all the models supported by [AIsa.one](http://AIsa.one) here: [https://marketplace.aisa.one/pricing](https://marketplace.aisa.one/pricing)
 
 **AIsa GPT 4.1:**
 
@@ -165,7 +165,7 @@ To manually create an auth profile, add this to your `openclaw.json`:
 Then use the OpenClaw CLI to set the key in your system keychain:
 
 ```bash
-openclaw  auth  set  aisa:default  --key  "$AISA_API_KEY"
+openclaw auth set aisa:default --key "$AISA_API_KEY"
 ```
 
 This keeps your API key out of your config file and stores it securely in your system keychain. Then update your provider config to reference the profile:
@@ -193,9 +193,7 @@ Track your AIsa.one usage in real-time on your AIsa dashboard.
 
   1. Ensure the `AISA_API_KEY` environment variable is set: `echo $AISA_API_KEY`
 
-  2. Check your
-
-     openclaw.json  refers to  `${AISA_API_KEY}`  correctly.
+  2. Check your `openclaw.json`  refers to  `${AISA_API_KEY}`  correctly.
 
   3. Or hardcode the key (not recommended) to verify.
 
@@ -215,9 +213,7 @@ Track your AIsa.one usage in real-time on your AIsa dashboard.
 
   1. Verify the model ID (e.g., `gpt-4.1`) is correct.
 
-  2. Ensure the model is defined in the `models` array in
-
-     openclaw.json.
+  2. Ensure the model is defined in the `models` array in `openclaw.json`.
 
   3. Use the format `aisa/<model-id>`.
 
@@ -254,3 +250,5 @@ Configure different models for different messaging channels:
 ## Resources
 
 * [OpenClaw Documentation](https://docs.openclaw.ai/)
+
+<br />
