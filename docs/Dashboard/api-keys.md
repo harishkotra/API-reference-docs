@@ -13,6 +13,8 @@ From this page, you can generate new keys, configure limits and restrictions, mo
 
 ## **Creating an API Key**
 
+<Image align="center" border={false} src="https://files.readme.io/ee911d20ed2dda607fecc42db0aef4cd91f6d6cce385140652d3c3c5a459a692-api-key.gif" />
+
 To create a new API key:
 
 1. Click **Create an API Key**
