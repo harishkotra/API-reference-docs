@@ -1,5 +1,5 @@
 ---
-title: Openai Chat
+title: OpenAI Chat
 excerpt: >-
   **Starting a new project?** We recommend trying
   [Responses](https://platform.openai.com/docs/api-reference/responses) to take
