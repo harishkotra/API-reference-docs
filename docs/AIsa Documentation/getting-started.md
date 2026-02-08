@@ -23,14 +23,15 @@ One API for hundreds of models.
 
 AIsa supports 50+ text, image, video, vision-language, and audio models while remaining fully API-compatible with OpenAI and other ecosystems. Explore and browse the full catalogue of models and providers as well as pricing [on our website](https://marketplace.aisa.one/pricing).
 
-| LLM Family | Developer |
-| ---------- | --------- |
-| GPT        | OpenAI    |
-| Claude     | Anthropic |
-| Gemini     | Google    |
-| Qwen       | Alibaba   |
-| Deepseek   | Deepseek  |
-| Grok       | xAI       |
+| LLM Family | Developer   |
+| ---------- | ----------- |
+| GPT        | OpenAI      |
+| Claude     | Anthropic   |
+| Gemini     | Google      |
+| Qwen       | Alibaba     |
+| Deepseek   | Deepseek    |
+| Kimi       | Moonshot AI |
+| Grok       | xAI         |
 
 ### Developer Tools & API Support
 
