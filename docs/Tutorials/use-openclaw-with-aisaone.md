@@ -39,17 +39,16 @@ Add your AIsa.one API key to your  `~/.openclaw/openclaw.json`  (or set it as an
     "mode": "merge",
     "providers": {
       "aisa": {
-        "baseUrl": "<https://api.aisa.one/v1>",
+        "baseUrl": "https://api.aisa.one/v1",
         "apiKey": "${AISA_API_KEY}",
         "api": "openai-completions",
         "models": [
           { "id": "gpt-4.1", "name": "GPT 4.1" },
-          { "id": "gpt-4.1-mini", "name": "GPT 4.1 Mini" },
+          { "id": "kimi-k2.5", "name": "Kimi K2.5" },
           { "id": "claude-3-7-sonnet-20250219", "name": "Claude 3.7 Sonnet" },
           { "id": "gemini-2.5-flash", "name": "Gemini 2.5 Flash" },
           { "id": "deepseek-v3", "name": "DeepSeek V3" },
           { "id": "qwen3-max", "name": "Qwen3 Max" }
-          // Add other models here based on your need...
         ]
       }
     }
@@ -57,10 +56,10 @@ Add your AIsa.one API key to your  `~/.openclaw/openclaw.json`  (or set it as an
   "agents": {
     "defaults": {
       "model": {
-        "primary": "aisa/gpt-4.1"
+        "primary": "aisa/kimi-k2.5"
       },
       "models": {
-        "aisa/gpt-4.1": {}
+        "aisa/kimi-k2.5": {}
       }
     }
   }
@@ -77,16 +76,16 @@ That's it! OpenClaw now knows about the `aisa` provider. You configure it in `mo
 
 ### Step 3: Choose Your Model
 
-Update the  `primary`  model and add it to the  `models`  list. Let’s use  `gpt-4.1` for this setup. You can find all the models supported by [AIsa.one](http://AIsa.one) here: [https://marketplace.aisa.one/pricing](https://marketplace.aisa.one/pricing)
+Update the  `primary`  model and add it to the  `models`  list. Let’s use  `kimi-k2.5` for this setup. You can find all the models supported by [AIsa.one](http://AIsa.one) here: [https://marketplace.aisa.one/pricing](https://marketplace.aisa.one/pricing)
 
 **AIsa GPT 4.1:**
 
 ```json
 "model": {
-  "primary": "aisa/gpt-4.1"
+  "primary": "aisa/kimi-k2.5"
 },
 "models": {
-  "aisa/gpt-4.1": {}
+  "aisa/kimi-k2.5": {}
 }
 ```
 
@@ -102,9 +101,7 @@ Your agents will now use AIsa.one to route requests to your chosen model.
 
 ## Model Format
 
-OpenClaw uses the format  `aisa/<model-id>`  for AIsa.one models. For example:
-
-* `aisa/gpt-4.1`
+OpenClaw uses the format  `aisa/<model-id>`  for AIsa.one models. For example:`aisa/kimi-k2.5`
 
 You can use any model ID supported by the AIsa.one API by adding it to the  `models`  array in your `openclaw.json`  configuration.
 
@@ -118,8 +115,8 @@ OpenClaw supports model fallbacks. If the primary model is unavailable, it will 
     "providers": {
       "aisa": {
         "models": [
+          { "id": "kimi-k2.5", "name": "Kimi K2.5" },
           { "id": "gpt-4.1", "name": "GPT 4.1" },
-          { "id": "gpt-3.5-turbo", "name": "GPT 3.5 Turbo" }
         ]
       }
     }
@@ -127,14 +124,14 @@ OpenClaw supports model fallbacks. If the primary model is unavailable, it will 
   "agents": {
     "defaults": {
       "model": {
-        "primary": "aisa/gpt-4.1",
+        "primary": "aisa/kimi-k2.5",
         "fallbacks": [
-          "aisa/gpt-3.5-turbo"
+          "aisa/gpt-4.1"
         ]
       },
       "models": {
-        "aisa/gpt-4.1": {},
-        "aisa/gpt-3.5-turbo": {}
+        "aisa/kimi-k2.5": {},
+        "aisa/gpt-4.1": {}
       }
     }
   }
@@ -211,7 +208,7 @@ Track your AIsa.one usage in real-time on your AIsa dashboard.
 
   **Fix:**
 
-  1. Verify the model ID (e.g., `gpt-4.1`) is correct.
+  1. Verify the model ID (e.g., `kimi-k2.5`) is correct.
 
   2. Ensure the model is defined in the `models` array in `openclaw.json`.
 
@@ -229,7 +226,7 @@ Configure different models for different messaging channels:
     "agents": {
       "defaults": {
         "model": {
-          "primary": "aisa/gpt-4.1"
+          "primary": "aisa/kimi-k2.5"
         }
       }
     }
@@ -238,7 +235,7 @@ Configure different models for different messaging channels:
     "agents": {
       "defaults": {
         "model": {
-          "primary": "aisa/gpt-4.1"
+          "primary": "aisa/kimi-k2.5"
         }
       }
     }
