@@ -97,8 +97,6 @@ The **Show debug** option reveals additional request and response details.
 
 <Image align="center" src="https://files.readme.io/2f75904ca3351c77b54043c94986d51ddf95e7c074361effc8962934a201b8ea-Screenshot_2026-02-12_171229.png" />
 
-<br />
-
 This includes raw request payloads and internal metadata, which can be helpful when troubleshooting unexpected behavior or validating request structure.
 
 ## **Import and Export**
