@@ -7,7 +7,7 @@ metadata:
 ---
 The Playground is an interactive environment for testing models available through AISA before integrating them into your application. It allows you to send requests, adjust model parameters, inspect responses, and validate behavior in real time using the same APIs and configuration used for production requests.
 
-<Image align="center" border={false} src="https://files.readme.io/9f5feddc948a73b5540f3dc3b32cc630d26491d7776a25d79b9fc4f65aeb4894-Sid_Playground.gif" />
+<Image align="center" src="https://files.readme.io/9f5feddc948a73b5540f3dc3b32cc630d26491d7776a25d79b9fc4f65aeb4894-Sid_Playground.gif" />
 
 You can start using the Playground immediately after signing up. New accounts receive **free credits**, and the Playground can be used **without generating an API key**.
 
@@ -17,7 +17,7 @@ This page is commonly used to experiment with different models, tune generation 
 
 The left panel contains configuration options that control how requests are sent to the selected model.
 
-<Image align="center" border={false} width="30% " src="https://files.readme.io/23facb9b655990907ef0713813b0ba8c2f787f6615579e51e4720caa66b36d5d-image.png" />
+<Image align="center" width="30% " src="https://files.readme.io/23facb9b655990907ef0713813b0ba8c2f787f6615579e51e4720caa66b36d5d-image.png" />
 
 Available options may change depending on the selected model. Not all models support the same parameters or input types.
 
@@ -94,6 +94,10 @@ Responses appear exactly as they would when using the API, making the Playground
 ## **Debug Mode**
 
 The **Show debug** option reveals additional request and response details.
+
+<Image align="center" src="https://files.readme.io/2f75904ca3351c77b54043c94986d51ddf95e7c074361effc8962934a201b8ea-Screenshot_2026-02-12_171229.png" />
+
+<br />
 
 This includes raw request payloads and internal metadata, which can be helpful when troubleshooting unexpected behavior or validating request structure.
 
