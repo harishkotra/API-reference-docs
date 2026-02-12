@@ -9,11 +9,11 @@ AISA provides two billing models depending on the type of API used:
 
 1. **LLM Inference APIs:** billed per token
 
-![][image1]
+![](https://files.readme.io/a97cc191a5e10002bee66beeaa0599292e0e25fb15389e2803fb1f1a89735026-Screenshot_2026-02-12_181906.png)
 
 2. **Per-Call APIs:** billed per request
 
-![][image2]
+![](https://files.readme.io/8611f21b39d76f704315d4cd4b979a9c75ce1cb85fd373c797cc613fed9748cc-Screenshot_2026-02-12_182012.png)
 
 This page explains how each pricing model works and where to find live pricing information.
 
@@ -63,7 +63,7 @@ If multiple groups are configured in your workspace, pricing may differ per grou
 
 ### **How LLM Cost Is Calculated**
 
-![][image3]
+<Image align="center" width="50% " src="https://files.readme.io/9b9af5d657bceaae77a85ed8a28e5f21736604c7fd7e3fc58938f2706064bd34-image.png" />
 
 For each request:
 
