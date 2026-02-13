@@ -5,7 +5,7 @@ hidden: false
 metadata:
   robots: index
 ---
-![](https://files.readme.io/a0a0b58fa4b201ff1d728ba87141458d167e75f05ed3e1de9fa2c4ea26ba352b-image.png)
+![](https://files.readme.io/fce10cb2f6da523f8db6a4c63e8da0b707e9c97bd3e1d1e1cd95ed9b00073d96-image.png)
 
 The Usage Logs page provides detailed records of all API requests made under your account. It allows you to monitor token usage, track spending, inspect request metadata, and review billing calculations.
 
