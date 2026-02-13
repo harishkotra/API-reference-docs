@@ -200,7 +200,7 @@ The Usage Logs page is helpful for:
 
 * Reviewing request latency and streaming performance
 
-  ## **Notes**
+## **Notes**
 
 * All Playground activity appears in Usage Logs.
 
