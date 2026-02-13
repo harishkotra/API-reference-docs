@@ -72,7 +72,7 @@ Indicates the request type.
 
 For example:
 
-* **Consume** – A standard API request consuming tokens
+**Consume** – A standard API request consuming tokens
 
 ### **Model**
 
