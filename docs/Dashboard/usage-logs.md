@@ -5,35 +5,56 @@ hidden: false
 metadata:
   robots: index
 ---
-![](https://files.readme.io/fce10cb2f6da523f8db6a4c63e8da0b707e9c97bd3e1d1e1cd95ed9b00073d96-image.png)
+![](https://files.readme.io/b5e7c8ba039c4d0be940fc9b5185c956fa812313f79f96456e2d91ab3ee10bd7-Screenshot_2026-02-13_170200.png)
 
-The Usage Logs page provides detailed records of all API requests made under your account. It allows you to monitor token usage, track spending, inspect request metadata, and review billing calculations.
+The Usage Logs page provides a complete history of activity associated with your account. It records API requests, token consumption, billing details, and important system-level actions, allowing you to monitor usage, verify costs, and audit account events in one place.
 
 This page is useful for:
 
-* Monitoring API consumption
-* Debugging request behavior
-* Auditing token usage
-* Verifying billing calculations
-* Reviewing per-model spend
+* Tracking API consumption and spend
+* Reviewing token usage per request
+* Monitoring request performance
+* Auditing activity across groups or API keys
+* Investigating unexpected charges or system actions
+
+## **What Is Recorded**
+
+The Usage Logs include both API activity and key platform events.
+
+### **API Requests**
+
+All requests made through:
+
+* API keys
+* Playground
+* LLM inference APIs
+* Per-call APIs (Search, Financial, YouTube, Scholar, Twitter, and others)
+
+For each request, the log captures usage, performance, and billing information.
+
+### **System & Account Events**
+
+Important account-level actions are also recorded. For example:
+
+* Enabling two-factor authentication
+* Security-related configuration changes
+
+These entries appear as system events and are included for auditing purposes. They typically do not incur usage charges.
 
 ## **Overview Metrics**
 
 At the top of the page, summary metrics are displayed for the selected time range.
 
-### **Used Quota**
-
+**Used Quota**  
 Shows the total quota consumed during the selected period.
 
-### **RPM**
+**RPM (Requests per Minute)**  
+Indicates the rate of incoming requests.
 
-Requests per minute.
+**TPM (Tokens per Minute)**  
+Indicates the rate of token consumption.
 
-### **TPM**
-
-Tokens per minute.
-
-These metrics help monitor short-term traffic intensity and usage spikes.
+These metrics help identify traffic spikes and overall usage patterns.
 
 ## **Filtering and Search**
 
@@ -52,17 +73,17 @@ Column visibility can be adjusted using **Column settings**.
 
 ## **Log Table Columns**
 
-Each row in the table represents a single API request.
+Each row in the table represents a single event, either an API request or a system action.
 
-### **Time**
+**Time**
 
-The timestamp when the request was processed.
+The timestamp when the event occurred.
 
-### **Tokens**
+**Tokens**
 
-Indicates the API key used for the request.
+The API key used for the request. This field may be empty for system events.
 
-### **Group**
+**Group**
 
 The workspace group associated with the API key.
 
@@ -72,43 +93,48 @@ Indicates the request type.
 
 For example:
 
-**Consume** – A standard API request consuming tokens
+* _**Consume**_ – A standard API request consuming tokens
+* _**System**_ – an account or platform-level action
 
-### **Model**
+**Model**
 
-The model used to process the request.
+The model used to process the request (for LLM calls).
 
-### **Time / First Word**
+**Time / First Word**
 
-Shows timing information related to the request:
+Performance details for supported API requests, including:
 
 * Total request duration
-* Time to first response token (if applicable)
-* Indicates whether the response was streamed
+* Time to first response token
+* Whether the response was streamed
 
-### **Input**
+**Input / Output**
 
-Number of input tokens consumed.
+Number of input and output tokens consumed (for LLM requests).
 
-### **Output**
+**Spend**
 
-Number of output tokens generated.
+The cost associated with the event:
 
-### **Spend**
+* Token-based cost for LLM requests
+* Fixed per-call cost for per-call APIs
+* Typically no cost for system events
 
-The total cost associated with the request.
+**IP**
 
-### **IP**
+The source IP address associated with the request, if available.
 
-Displays the source IP address associated with the request (if available).
+Only when the user sets IP recording, the IP recording of request and error type logs will be performed
 
-### **Details**
+**Details**
 
-Shows pricing multipliers or model-related ratios applied to the request.
+Additional information, such as applied pricing ratios or a description of the system event.
 
 ## **Viewing Log Details**
 
-Click on a log entry to expand detailed information.
+Clicking a log entry expands a detailed breakdown.
+
+![](https://files.readme.io/92ad0f58f0501c89042d20215e258796c4fad3d0a986ade900ed4e88dec6fb56-Screenshot_2026-02-13_170917.png)
 
 The expanded view includes:
 
@@ -125,7 +151,7 @@ Example fields may include:
 
 ### **Billing Process**
 
-The billing breakdown shows how the cost is calculated.
+The billing breakdown shows how cost is calculated.
 
 This includes:
 
@@ -146,30 +172,40 @@ Example:
 
 This helps identify which endpoint was used.
 
-## **How Billing Is Calculated**
+This breakdown provides full transparency into how the final cost was calculated.
 
-Usage cost is determined based on:
+For system events, the expanded view describes the action performed.
 
-* Number of input tokens
-* Number of output tokens
-* Per-million token pricing
-* Model-specific multipliers
-* Group ratios (if applicable)
+## **How Billing Is Reflected**
 
-The breakdown is shown per request for full transparency.
+Usage costs are calculated based on:
+
+* Token consumption (for LLM APIs)
+* Fixed per-call pricing (for non-LLM APIs)
+* Applicable model or group pricing rules
+
+The Usage Logs show the calculated cost per event. The actual account balance deduction reflects the final computed amount.
 
 ## **Practical Use Cases**
 
 The Usage Logs page is helpful for:
 
 * Verifying token consumption per request
+
 * Tracking which models are being used
+
 * Auditing cost distribution across groups
+
 * Debugging unexpected billing behavior
+
 * Reviewing request latency and streaming performance
 
-## **Notes**
+  ## **Notes**
 
-* All Playground requests appear in Usage Logs.
+* All Playground activity appears in Usage Logs.
+
 * All API key requests appear in Usage Logs.
-* Billing reflected here contributes to account balance deductions.
+
+* System-level actions are recorded for audit visibility.
+
+* Costs shown in the log are deducted from the account balance where applicable.
