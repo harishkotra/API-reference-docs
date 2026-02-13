@@ -125,7 +125,7 @@ Example fields may include:
 
 ### **Billing Process**
 
-The billing breakdown shows how cost is calculated.
+The billing breakdown shows how the cost is calculated.
 
 This includes:
 
