@@ -8,5 +8,5 @@ excerpt: >-
 api:
   file: twitter-post-batch01.json
   operationId: post_twitter-user-login-v3
-hidden: false
+hidden: true
 ---
