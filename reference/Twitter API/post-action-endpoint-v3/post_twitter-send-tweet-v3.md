@@ -6,5 +6,5 @@ excerpt: >-
 api:
   file: twitter-post-batch03.json
   operationId: post_twitter-send-tweet-v3
-hidden: false
+hidden: true
 ---
