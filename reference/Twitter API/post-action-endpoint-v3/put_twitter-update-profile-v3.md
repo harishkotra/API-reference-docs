@@ -4,5 +4,5 @@ excerpt: Update your X profile information. Only non-empty fields will be update
 api:
   file: twitter-post-batch03.json
   operationId: put_twitter-update-profile-v3
-hidden: false
+hidden: true
 ---
