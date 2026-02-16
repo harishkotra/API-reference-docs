@@ -5,172 +5,85 @@ hidden: false
 metadata:
   robots: index
 ---
-AISA provides two billing models depending on the type of API used:
+AISA uses a usage-based billing system. Charges are applied based on the type of API you use.
 
-1. **LLM Inference APIs:** billed per token
+There are two distinct pricing models:
 
-![](https://files.readme.io/a97cc191a5e10002bee66beeaa0599292e0e25fb15389e2803fb1f1a89735026-Screenshot_2026-02-12_181906.png)
+1. **AI Model (LLM) Pricing:** billed per token
+2. **Per-Call API Pricing:** billed per request
 
-2. **Per-Call APIs:** billed per request
+This page provides a high-level overview of both models and links to their detailed pricing pages.
 
-![](https://files.readme.io/8611f21b39d76f704315d4cd4b979a9c75ce1cb85fd373c797cc613fed9748cc-Screenshot_2026-02-12_182012.png)
+## **1. AI Model (LLM) Pricing**
 
-This page explains how each pricing model works and where to find live pricing information.
+AI model APIs are billed based on token usage.
 
-## **LLM Inference API Pricing**
+![](https://files.readme.io/8975f2d6f9f0ea4e8d62ea652886ff880f51286be7ea0d75408e439c76a27e1f-image.png)
 
-LLM Inference APIs provide access to large language models from multiple providers through AISA’s unified interface.
-
-### **Billing Unit**
-
-LLM usage is billed based on:
+Each request is charged separately for:
 
 * **Input tokens** (prompt tokens)
-* **Output tokens** (completion tokens)
+* **Output tokens** (generated tokens)
 
-Prices are displayed per:
+Prices are defined per **1 million tokens (1M tokens)**, and input and output tokens are billed independently.
 
-`1,000,000 tokens (1M tokens)`
-
-Input and output tokens are billed separately.
-
-### **Viewing Live Model Pricing**
-
-All available models and their current pricing are listed in the **Marketplace**.
-
-Each model displays:
-
-* Input token price (per 1M tokens)
-* Output token price (per 1M tokens)
-* Billing type (typically Pay as you go)
-* Supported API endpoint
-* Supported capabilities (Tools, Vision, Files, Reasoning, etc.)
-
-Model availability and pricing may change. Always refer to the Marketplace for the most up-to-date rates.
-
-### **Group-Based Pricing**
-
-Pricing may vary by workspace group.
-
-Within a model’s detail panel, the **Group price** section shows:
-
-* Group name
-* Billing type
-* Prompt (input) price
-* Completion (output) price
-
-If multiple groups are configured in your workspace, pricing may differ per group.
-
-### **How LLM Cost Is Calculated**
-
-<Image align="center" width="50% " src="https://files.readme.io/9b9af5d657bceaae77a85ed8a28e5f21736604c7fd7e3fc58938f2706064bd34-image.png" />
-
-For each request:
-
-`Cost =`
-
-`(Input tokens ÷ 1,000,000 × Input price)`
-
-`+`
-
-`(Output tokens ÷ 1,000,000 × Output price)`
-
-If group ratios or pricing multipliers are configured, they are applied accordingly.
-
-You can view the full billing breakdown for each request in the **Usage Logs** page.
-
-### **What Is Covered Under LLM Pricing**
-
-LLM pricing applies to:
+This pricing model applies to:
 
 * Chat completions
 * Text generation
+* Vision-enabled models
+* Tool-enabled models
 * Streaming responses
-* Vision-enabled requests (if supported by the model)
-* Tool-enabled requests (if supported)
 
-All Playground and API key requests are billed under this model.
+For the full model pricing table and detailed billing explanation, see **AI Model Pricing**
 
-## **Per-Call API Pricing**
+## **2. Per-Call API Pricing**
 
-Per-Call APIs include all non-LLM endpoints available in the Marketplace, such as:
+All non-LLM APIs use a fixed per-request billing model.
+
+![](https://files.readme.io/a991d244f6416f6b1e5b39782769957cf4a9b4ed6c63451ee885aa239b4dc6ae-image.png)
+
+Each successful request to an endpoint incurs a predefined charge, regardless of response size.
+
+This pricing model applies to APIs such as:
 
 * Search APIs
 * Financial APIs
 * YouTube APIs
 * Scholar APIs
 * Twitter APIs
-* Other structured data services
+* Other structured data and retrieval services
 
-These APIs share the same pricing structure.
+For endpoint-level pricing details and billing behavior, see **Per-Call API Pricing**
 
-### **Billing Unit**
+## **Choosing the Correct Pricing Model**
 
-Per-Call APIs are billed:
+If your API request:
 
-`Per API request`
+* Uses a language model to generate text → **Token-based pricing applies**
+* Retrieves structured data or performs a search → **Per-call pricing applies**
 
-Each endpoint has a fixed cost per call.
+The Marketplace displays the billing type for each model or endpoint.
 
-Pricing is displayed in the format:
+## **Usage Tracking and Transparency**
 
-`$X.XXXXXX / per call`
-
-### **Viewing Live Endpoint Pricing**
-
-All available per-call endpoints and their current pricing are listed in the **Marketplace** under their respective categories.
-
-Each listing shows:
-
-* Endpoint name
-* API path
-* Cost per call
-
-Because endpoints and pricing may evolve, always refer to the Marketplace for the most up-to-date information.
-
-### **How Per-Call Cost Is Calculated**
-
-`Cost = Number of API calls × Per-call price`
-
-There is no token-based billing for these APIs.
-
-## **Comparing the Two Pricing Models**
-
-| Feature                | LLM Inference                | Per-Call APIs                        |
-| ---------------------- | ---------------------------- | ------------------------------------ |
-| Billing unit           | Per token                    | Per call                             |
-| Input/Output billing   | Yes                          | No                                   |
-| Fixed cost per request | No                           | Yes                                  |
-| Model-based pricing    | Yes                          | No                                   |
-| Endpoint-based pricing | Yes                          | Yes                                  |
-| Used for               | Text & multimodal generation | Search, data, financial, social APIs |
-
-## **Usage Tracking & Billing Transparency**
-
-All API usage appears in:
+All API activity, whether token-based or per-call, is recorded in:
 
 * **Usage Logs**
 * Account billing summaries
 
-For LLM requests, logs display:
+You can review:
 
-* Input tokens
-* Output tokens
-* Applied pricing
-* Final cost calculation
+* Tokens consumed (for AI models)
+* Number of requests (for per-call APIs)
+* Final cost per request
+* Applied pricing rules or group ratios
 
-For Per-Call APIs, logs reflect:
+Charges are deducted from your account balance based on the applicable pricing model.
 
-* Request count
-* Per-call pricing
-* Final cost
+## **Additional Notes**
 
-Charges are deducted from your account balance according to the applicable pricing model.
-
-## **Important Notes**
-
-* Pricing is usage-based.
-* LLM APIs are billed per token.
-* All other APIs are billed per call.
+* Pricing is usage-based; no fixed monthly platform fees.
 * Pricing may vary by model, provider, group, or endpoint.
-* Refer to the Marketplace for live pricing information.
+* Always refer to the Marketplace for the most up-to-date rates.
+* Detailed billing breakdowns are available in Usage Logs.
