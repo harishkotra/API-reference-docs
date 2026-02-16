@@ -1,5 +1,5 @@
 ---
-title: Pricing
+title: Marketplace
 deprecated: false
 hidden: false
 metadata:
