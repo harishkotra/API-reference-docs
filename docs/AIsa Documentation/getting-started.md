@@ -32,6 +32,7 @@ AIsa supports 50+ text, image, video, vision-language, and audio models while re
 | Deepseek   | Deepseek    |
 | Kimi       | Moonshot AI |
 | Grok       | xAI         |
+| Seed       | ByteDance   |
 
 ### Developer Tools & API Support
 
