@@ -166,9 +166,7 @@ The detailed formula is shown for transparency. Actual account deduction reflect
 
 Displays the internal API route used to process the request.
 
-Example:
-
-`/pg/chat/completions`
+Example: `/pg/chat/completions`
 
 This helps identify which endpoint was used.
 
