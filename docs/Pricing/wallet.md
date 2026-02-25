@@ -178,10 +178,6 @@ Only completed deposits are credited to your wallet balance. Pending or expired 
 
 This section provides full visibility into funding history and ensures transparent tracking of all payments.
 
-## **Redemption Codes**
-
-If you have a valid redemption code, you can apply it directly from the Wallet page. Once submitted and validated, the corresponding credit is added to your balance.
-
 ## **Invite Friends & Earn Rewards**
 
 In addition to direct funding, AISA offers a referral program that allows you to earn rewards by inviting others to the platform.
