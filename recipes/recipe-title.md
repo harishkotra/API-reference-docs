@@ -1,6 +1,6 @@
 ---
-title: Recipe Title
-description: Recipe Description
+title: Crypto Sentiment Trader
+description: Build an automated crypto trading agent using AIsa Financial APIs and gpt-4o.
 hidden: false
 recipe:
   color: '#018FF4'
@@ -48,12 +48,6 @@ if __name__ == "__main__":
 ```json Response Example
 {"success":true}
 ```
-
-# Crypto Sentiment Trader
-
-<!-- python@ -->
-
-Build an automated crypto trading agent using AIsa Financial APIs and gpt-4o.
 
 # Configure the Environment
 
