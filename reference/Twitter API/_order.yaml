@@ -5,6 +5,7 @@
 - trend-endpoint
 - spaces-endpoint
 - httpsdocstwitterapiioapi-referenceendpointuser_login_v3
+- deletetweet
 - httpsdocstwitterapiioapi-referenceendpointupload_media_v2
 - httpsdocstwitterapiioapi-referenceendpointcreate_tweet_v2
 - httpsdocstwitterapiioapi-referenceendpointget_dm_history_by_user_id
