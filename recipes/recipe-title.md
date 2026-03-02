@@ -4,7 +4,7 @@ description: Build an automated crypto trading agent using AIsa Financial APIs a
 hidden: false
 recipe:
   color: '#018FF4'
-  icon: 🦉
+  icon: 📈
 ---
 ```python Python
 import os
