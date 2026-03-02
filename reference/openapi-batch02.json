@@ -10,74 +10,7 @@
     }
   ],
   "paths": {
-    "/twitter/retweet_v2": {
-      "post": {
-        "tags": [
-          "twitterapi-retweet"
-        ],
-        "summary": "Retweet a Tweet",
-        "operationId": "retweetTweet",
-        "security": [
-          {
-            "bearerAuth": []
-          }
-        ],
-        "requestBody": {
-          "required": true,
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-                "required": [
-                  "tweet_id",
-                  "login_cookies",
-                  "proxy"
-                ],
-                "properties": {
-                  "login_cookies": {
-                    "type": "string",
-                    "description": "The login cookies of the user."
-                  },
-                  "proxy": {
-                    "type": "string",
-                    "description": "The proxy to use."
-                  },
-                  "tweet_id": {
-                    "type": "string",
-                    "description": "The id of the tweet to retweet. Must be set."
-                  }
-                }
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Success",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "status": {
-                      "type": "string",
-                      "description": "Status of the request. success or error"
-                    },
-                    "msg": {
-                      "type": "string",
-                      "description": "Message of the request. error message"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad Request"
-          }
-        }
-      }
-    },
+    "/twitter/retweet_v2": {},
     "/twitter/delete_tweet_v2": {
       "post": {
         "tags": [
