@@ -137,55 +137,7 @@
     "/twitter/user_login_v2": {},
     "/twitter/upload_media_v2": {},
     "/twitter/create_tweet_v2": {},
-    "/twitter/get_dm_history_by_user_id": {
-      "get": {
-        "tags": [
-          "https://docs.twitterapi.io/api-reference/endpoint/get_dm_history_by_user_id"
-        ],
-        "summary": "Get DM history",
-        "description": "Get the direct message history with a user.",
-        "parameters": [
-          {
-            "name": "login_cookies",
-            "in": "query",
-            "required": true,
-            "schema": {
-              "type": "string"
-            },
-            "description": "The login cookies of the user."
-          },
-          {
-            "name": "user_id",
-            "in": "query",
-            "required": true,
-            "schema": {
-              "type": "string"
-            },
-            "description": "The id of the user to get the direct message history with."
-          },
-          {
-            "name": "proxy",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            },
-            "description": "The proxy to use."
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Successful retrieval of DM history",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/GetDMHistoryResponse"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
+    "/twitter/get_dm_history_by_user_id": {},
     "/twitter/send_dm_to_user": {
       "post": {
         "tags": [
