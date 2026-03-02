@@ -24,52 +24,7 @@
     }
   ],
   "paths": {
-    "/twitter/get_my_x_account_detail_v3": {
-      "get": {
-        "tags": [
-          "https://docs.twitterapi.io/api-reference/endpoint/v3_get_account_detail"
-        ],
-        "summary": "Get Account Detail V3",
-        "description": "Get the details of your X account that was logged in via user_login_v3.",
-        "parameters": [
-          {
-            "name": "user_name",
-            "in": "query",
-            "required": true,
-            "description": "Twitter username. Must be set. The user must have been logged in via user_login_v3.",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Account detail response",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "status": {
-                      "type": "string",
-                      "description": "Status of the request."
-                    },
-                    "msg": {
-                      "type": "string",
-                      "description": "Message describing the result."
-                    },
-                    "data": {
-                      "type": "object",
-                      "description": "Account detail data."
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
+    "/twitter/get_my_x_account_detail_v3": {},
     "/twitter/delete_my_x_account_v3": {
       "delete": {
         "tags": [
