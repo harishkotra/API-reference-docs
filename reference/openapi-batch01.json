@@ -135,61 +135,7 @@
   ],
   "paths": {
     "/twitter/user_login_v2": {},
-    "/twitter/upload_media_v2": {
-      "post": {
-        "tags": [
-          "https://docs.twitterapi.io/api-reference/endpoint/upload_media_v2"
-        ],
-        "summary": "Upload media",
-        "description": "Upload media to Twitter.",
-        "requestBody": {
-          "required": true,
-          "content": {
-            "multipart/form-data": {
-              "schema": {
-                "required": [
-                  "file",
-                  "proxy",
-                  "login_cookies"
-                ],
-                "type": "object",
-                "properties": {
-                  "file": {
-                    "type": "string",
-                    "format": "binary",
-                    "description": "The media file to upload."
-                  },
-                  "proxy": {
-                    "type": "string",
-                    "description": "The proxy to use."
-                  },
-                  "login_cookies": {
-                    "type": "string",
-                    "description": "The login cookies of the user."
-                  },
-                  "is_long_video": {
-                    "type": "boolean",
-                    "description": "If this is True, videos longer than 2:20 can be uploaded."
-                  }
-                }
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Successful media upload",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/UploadMediaResponse"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
+    "/twitter/upload_media_v2": {},
     "/twitter/create_tweet_v2": {
       "post": {
         "tags": [
