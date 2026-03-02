@@ -45,10 +45,6 @@ if __name__ == "__main__":
     execute_crypto_trade("BTC")
 ```
 
-```json Response Example
-{"success":true}
-```
-
 # Configure the Environment
 
 <!-- python@1-11 -->
