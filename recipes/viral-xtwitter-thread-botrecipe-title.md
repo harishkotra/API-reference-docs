@@ -7,7 +7,20 @@ recipe:
   icon: 🐦
 ---
 ```shell Shell
-pip install openai requests python-dotenv
+pip install openai requests python-dotenvimport os
+import requests
+from openai import OpenAI
+
+API_KEY = os.environ.get("AISA_API_KEY")
+LLM_BASE_URL = "https://api.aisa.one/v1"
+API_BASE_URL = "https://api.aisa.one/apis/v1"
+
+client = OpenAI(api_key=API_KEY, base_url=LLM_BASE_URL)
+
+HEADERS = {
+    "Authorization": f"Bearer {API_KEY}",
+    "Content-Type": "application/json",
+}
 ```
 
 ```python Python
@@ -69,12 +82,6 @@ def generate_viral_thread(topic):
 
 if __name__ == "__main__":
     generate_viral_thread("Artificial Intelligence in Healthcare")
-
-
-```
-
-```json Response Example
-{"success":true}
 ```
 
 # Configure Environment
@@ -109,3 +116,4 @@ Install dependencies
 
 <!-- shell@ -->
 <!-- python@50-58 -->
+
