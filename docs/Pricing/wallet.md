@@ -5,7 +5,7 @@ hidden: false
 metadata:
   robots: index
 ---
-![](https://files.readme.io/ff64679b0bafe5d60851ae4172d7dc284062d065e384151d2a0f2cd07395178c-Screenshot_2026-02-18_120106.png)
+<Image align="center" src="https://files.readme.io/ff64679b0bafe5d60851ae4172d7dc284062d065e384151d2a0f2cd07395178c-Screenshot_2026-02-18_120106.png" />
 
 The Wallet page is where you manage your account balance, fund your usage, and track incoming payments and rewards. Since AISA operates on a usage-based billing model, your wallet balance is used to cover API consumption across AI models and per-call endpoints.
 
@@ -25,7 +25,7 @@ Together, these metrics provide a quick snapshot of usage and spending.
 
 To continue using AISA services, you can top up your balance at any time. The platform supports two payment methods:
 
-![](https://files.readme.io/5135f9915e23cd30eb6cd360d982dcef523d3a03ae441a8ea419596b42b2a51e-Screenshot_2026-02-18_120143.png)
+<Image align="center" src="https://files.readme.io/5135f9915e23cd30eb6cd360d982dcef523d3a03ae441a8ea419596b42b2a51e-Screenshot_2026-02-18_120143.png" />
 
 * Card payments processed via **Stripe**
 * Stablecoin payments handled through AISA’s native crypto payment system
@@ -60,7 +60,7 @@ Below is the complete step-by-step process for funding your account.
 
 ### **Step 1: Select a Top-Up Amount**
 
-![](https://files.readme.io/145233b52c48ee0c1768a5012602230b64922dac27c3afe3e3bc477ff43824c4-Screenshot_2026-02-18_120106.png)
+<Image align="center" src="https://files.readme.io/145233b52c48ee0c1768a5012602230b64922dac27c3afe3e3bc477ff43824c4-Screenshot_2026-02-18_120106.png" />
 
 On the Wallet page, either:
 
@@ -73,7 +73,7 @@ After choosing your desired amount, click **Submit** to proceed.
 
 A **Top Up Confirmation** modal appears before payment is processed.
 
-![](https://files.readme.io/bb6a2df4891095fedbc9ba9f29b49dead02637bce136b80ac749fb2c64fdd4de-Screenshot_2026-02-18_120143.png)
+<Image align="center" src="https://files.readme.io/bb6a2df4891095fedbc9ba9f29b49dead02637bce136b80ac749fb2c64fdd4de-Screenshot_2026-02-18_120143.png" />
 
 This screen displays:
 
@@ -96,7 +96,7 @@ If you select **Pay with Card**, the following process occurs:
 
 ### **Step 3: Stripe Checkout**
 
-![](https://files.readme.io/e964504743638eedd024db14194a6e142c8f357ab9e9b1a59e245768000e09f3-Screenshot_2026-02-18_120155.png)
+<Image align="center" src="https://files.readme.io/e964504743638eedd024db14194a6e142c8f357ab9e9b1a59e245768000e09f3-Screenshot_2026-02-18_120155.png" />
 
 You are redirected to a secure Stripe checkout page where you:
 
@@ -123,7 +123,7 @@ If you select **Pay with Stablecoin**, the process includes wallet authorization
 
 ### **Step 3: Connect Wallet**
 
-![](https://files.readme.io/5d2262a69d7b97a361cb4d8d157ed479eba8ec2afe43da813841fbe662ac1718-Screenshot_2026-02-18_125046.png)
+<Image align="center" src="https://files.readme.io/5d2262a69d7b97a361cb4d8d157ed479eba8ec2afe43da813841fbe662ac1718-Screenshot_2026-02-18_125046.png" />
 
 If not already connected, you will be prompted to connect a supported wallet such as:
 
@@ -138,7 +138,7 @@ Once connected, the wallet address appears in the confirmation modal.
 
 Before transferring funds, you must approve a **spending cap request**. This allows the platform to withdraw the specified amount of the specified stablecoin (for example, USDC) from your wallet.
 
-![](https://files.readme.io/740a3aa274bd5155292e1df1999e12e56cd05c759180e9b507926ee4f3e6cae7-Screenshot_2026-02-18_120453.png)
+<Image align="center" src="https://files.readme.io/740a3aa274bd5155292e1df1999e12e56cd05c759180e9b507926ee4f3e6cae7-Screenshot_2026-02-18_120453.png" />
 
 Your wallet interface will display:
 
@@ -163,7 +163,7 @@ Once the transaction is confirmed on-chain, the deposit is marked as completed.
 
 All funding activity is recorded in the **Deposits** section.
 
-![](https://files.readme.io/a9c01959d72d5e4c6c66511367437ee509b612489cd5afbcbcd89e621657110c-image.png)
+<Image align="center" src="https://files.readme.io/a9c01959d72d5e4c6c66511367437ee509b612489cd5afbcbcd89e621657110c-image.png" />
 
 Each deposit entry includes:
 
