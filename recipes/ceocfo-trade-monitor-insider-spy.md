@@ -1,7 +1,7 @@
 ---
 title: CEO/CFO Trade Monitor (Insider Spy)
 description: Monitor insider trades and calculate corporate sentiment.
-hidden: true
+hidden: false
 recipe:
   color: '#018FF4'
   icon: 🔍
