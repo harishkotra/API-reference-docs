@@ -4,7 +4,7 @@ description: Verify claims using Smart Search + GPT synthesis.
 hidden: true
 recipe:
   color: '#018FF4'
-  icon: 🦉
+  icon: 📑
 ---
 ```python Python
 import os
