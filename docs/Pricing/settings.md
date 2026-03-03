@@ -32,7 +32,7 @@ Currently, account bindings can be disabled by the administrator. When enabled, 
 
 The Security Settings tab contains all mechanisms related to authentication, credential management, and account protection.
 
-![](https://files.readme.io/4f56ca858d2fda8c0e958b0d9b5ab87c6c39de46497e1faa2e1763f22d024117-Screenshot_2026-03-03_101702.png)
+<Image align="center" width="60% " src="https://files.readme.io/4f56ca858d2fda8c0e958b0d9b5ab87c6c39de46497e1faa2e1763f22d024117-Screenshot_2026-03-03_101702.png" />
 
 ### **System Access Token**
 
