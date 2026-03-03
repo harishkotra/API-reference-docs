@@ -18,7 +18,7 @@ This page provides a high-level overview of both models and links to their detai
 
 AI model APIs are billed based on token usage.
 
-![](https://files.readme.io/8975f2d6f9f0ea4e8d62ea652886ff880f51286be7ea0d75408e439c76a27e1f-image.png)
+<Image align="center" src="https://files.readme.io/8975f2d6f9f0ea4e8d62ea652886ff880f51286be7ea0d75408e439c76a27e1f-image.png" />
 
 Each request is charged separately for:
 
@@ -41,7 +41,7 @@ For the full model pricing table and detailed billing explanation, see **AI Mode
 
 All non-LLM APIs use a fixed per-request billing model.
 
-![](https://files.readme.io/a991d244f6416f6b1e5b39782769957cf4a9b4ed6c63451ee885aa239b4dc6ae-image.png)
+<Image align="center" src="https://files.readme.io/a991d244f6416f6b1e5b39782769957cf4a9b4ed6c63451ee885aa239b4dc6ae-image.png" />
 
 Each successful request to an endpoint incurs a predefined charge, regardless of response size.
 
