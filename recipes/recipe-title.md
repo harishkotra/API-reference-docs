@@ -72,4 +72,3 @@ We prepare structured market + news input for GPT-4o.
 # Execute the Agent
 
 <!-- python@35-36 -->
-
