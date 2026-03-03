@@ -1,5 +1,5 @@
 ---
-title: Viral X/Twitter Thread BotRecipe Title
+title: Viral X/Twitter Thread Bot
 description: Generate a viral 5-part X thread using live web search + gpt-4o.
 hidden: true
 recipe:
