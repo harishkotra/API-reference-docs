@@ -6,10 +6,6 @@ recipe:
   color: '#018FF4'
   icon: 🐦
 ---
-```shell Shell
-pip install openai requests python-dotenvimport os
-```
-
 ```python Python
 import os
 import requests
@@ -71,36 +67,25 @@ if __name__ == "__main__":
     generate_viral_thread("Artificial Intelligence in Healthcare")
 ```
 
-# Configure Environment
-
-<!-- shell@1 -->
-<!-- python@ -->
-
-Install dependencies
-
 # Initialize API Clients
 
-<!-- shell@3-15 -->
 <!-- python@1-14 -->
 
 
 
 # Search the Web for Fresh Context
 
-<!-- shell@18-29 -->
 <!-- python@16-27 -->
 
 
 
 # Generate a Viral Thread
 
-<!-- shell@ -->
 <!-- python@29-48 -->
 
 
 
 # Run GPT-4o
 
-<!-- shell@ -->
 <!-- python@50-58 -->
 
