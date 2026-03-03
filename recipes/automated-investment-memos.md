@@ -1,7 +1,7 @@
 ---
 title: Automated Investment Memos
 description: Generate Wall Street-style investment memos using live financial data.
-hidden: true
+hidden: false
 recipe:
   color: '#018FF4'
   icon: 💸
