@@ -8,19 +8,6 @@ recipe:
 ---
 ```shell Shell
 pip install openai requests python-dotenvimport os
-import requests
-from openai import OpenAI
-
-API_KEY = os.environ.get("AISA_API_KEY")
-LLM_BASE_URL = "https://api.aisa.one/v1"
-API_BASE_URL = "https://api.aisa.one/apis/v1"
-
-client = OpenAI(api_key=API_KEY, base_url=LLM_BASE_URL)
-
-HEADERS = {
-    "Authorization": f"Bearer {API_KEY}",
-    "Content-Type": "application/json",
-}
 ```
 
 ```python Python
@@ -93,7 +80,7 @@ Install dependencies
 
 # Initialize API Clients
 
-<!-- shell@3-16 -->
+<!-- shell@3-15 -->
 <!-- python@1-14 -->
 
 
