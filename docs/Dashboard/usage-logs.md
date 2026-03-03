@@ -5,7 +5,7 @@ hidden: false
 metadata:
   robots: index
 ---
-![](https://files.readme.io/b5e7c8ba039c4d0be940fc9b5185c956fa812313f79f96456e2d91ab3ee10bd7-Screenshot_2026-02-13_170200.png)
+<Image align="center" src="https://files.readme.io/b5e7c8ba039c4d0be940fc9b5185c956fa812313f79f96456e2d91ab3ee10bd7-Screenshot_2026-02-13_170200.png" />
 
 The Usage Logs page provides a complete history of activity associated with your account. It records API requests, token consumption, billing details, and important system-level actions, allowing you to monitor usage, verify costs, and audit account events in one place.
 
@@ -134,7 +134,7 @@ Additional information, such as applied pricing ratios or a description of the s
 
 Clicking a log entry expands a detailed breakdown.
 
-![](https://files.readme.io/92ad0f58f0501c89042d20215e258796c4fad3d0a986ade900ed4e88dec6fb56-Screenshot_2026-02-13_170917.png)
+<Image align="center" src="https://files.readme.io/92ad0f58f0501c89042d20215e258796c4fad3d0a986ade900ed4e88dec6fb56-Screenshot_2026-02-13_170917.png" />
 
 The expanded view includes:
 
