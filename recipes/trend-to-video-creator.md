@@ -1,7 +1,7 @@
 ---
 title: Trend-to-Video Creator
 description: Turn live Twitter trends into AI-generated cinematic videos.
-hidden: true
+hidden: false
 recipe:
   color: '#018FF4'
   icon: 📹
