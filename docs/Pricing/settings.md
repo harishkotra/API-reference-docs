@@ -5,7 +5,7 @@ hidden: false
 metadata:
   robots: index
 ---
-![](https://files.readme.io/83f7aca032a1b0441ae60b13762b151b3d1c87b8499333b0f98ae2df7a61051b-Screenshot_2026-03-03_101548.png)
+<Image align="center" src="https://files.readme.io/83f7aca032a1b0441ae60b13762b151b3d1c87b8499333b0f98ae2df7a61051b-Screenshot_2026-03-03_101548.png" />
 
 The **Settings** page centralizes all account-level configuration, including authentication methods, security controls, notification rules, pricing safeguards, privacy behavior, and interface customization.
 
@@ -24,7 +24,7 @@ The Account Management section governs authentication credentials and account-le
 
 The Account Binding panel allows external identity providers (such as GitHub or OIDC providers) to be linked to your account for federated authentication.
 
-![](https://files.readme.io/fbaf211369f2ea261da38531e42492b03d225338c7ef32f43686f275af9908b6-Screenshot_2026-03-03_101643.png)
+<Image align="center" src="https://files.readme.io/fbaf211369f2ea261da38531e42492b03d225338c7ef32f43686f275af9908b6-Screenshot_2026-03-03_101643.png" />
 
 Currently, account bindings can be disabled by the administrator. When enabled, this section allows you to bind supported providers to simplify login and identity verification workflows.
 
@@ -84,13 +84,13 @@ When enabled by the administrator:
 
 Two-Factor Authentication adds a second verification factor during login. Once enabled, logging in requires both your password and a time-based one-time password (TOTP).
 
-![](https://files.readme.io/3bef2bed0d99b3103ba21317c060fff0b2c70413687aab2c886e87dddaffbc88-Screenshot_2026-03-03_101922.png)
+<Image align="center" src="https://files.readme.io/3bef2bed0d99b3103ba21317c060fff0b2c70413687aab2c886e87dddaffbc88-Screenshot_2026-03-03_101922.png" />
 
 The setup process consists of three structured steps.
 
 ### **Step 1: Scan QR Code**
 
-![](https://files.readme.io/c66360647ab72d5ad7c96bf3ba89519636b5acd4d38b3b486282671037f8983d-Screenshot_2026-03-03_101755.png)
+<Image align="center" src="https://files.readme.io/c66360647ab72d5ad7c96bf3ba89519636b5acd4d38b3b486282671037f8983d-Screenshot_2026-03-03_101755.png" />
 
 When enabling 2FA, the system generates:
 
@@ -112,7 +112,7 @@ After scanning or entering the key, proceed to the next step.
 
 The system then generates multiple backup recovery codes.
 
-![](https://files.readme.io/16600e31027e97d823323108eff2f993a764deaa5478518fc6e659de4be67c20-Screenshot_2026-03-03_101831.png)
+<Image align="center" src="https://files.readme.io/16600e31027e97d823323108eff2f993a764deaa5478518fc6e659de4be67c20-Screenshot_2026-03-03_101831.png" />
 
 These codes:
 
@@ -126,7 +126,7 @@ Failure to store these codes may result in permanent loss of access if the authe
 
 ### **Step 3: Verify Setup**
 
-![](https://files.readme.io/8f4f235ff3a472022f673550fe9d121026be705f4978f887f7b89548c935f130-Screenshot_2026-03-03_101848.png)
+<Image align="center" src="https://files.readme.io/8f4f235ff3a472022f673550fe9d121026be705f4978f887f7b89548c935f130-Screenshot_2026-03-03_101848.png" />
 
 To complete activation:
 
@@ -144,7 +144,7 @@ From this point forward, login requires:
 
 The Delete Account action permanently removes your account and associated data.
 
-![](https://files.readme.io/deb8e87a331e7742bcf26f3c1528488853efd297ccceab35ba46ec5440109bc0-Screenshot_2026-03-03_101902.png)
+<Image align="center" src="https://files.readme.io/deb8e87a331e7742bcf26f3c1528488853efd297ccceab35ba46ec5440109bc0-Screenshot_2026-03-03_101902.png" />
 
 The confirmation process requires:
 
@@ -167,7 +167,7 @@ The Other Settings section governs operational controls, cost safeguards, and da
 
 Notification settings allow you to define how the system alerts you when your remaining quota reaches a specified threshold.
 
-![](https://files.readme.io/e66187848f5dcc4d958761befb34da46a3b6e7340fe6c8b12e1d47931419a25a-Screenshot_2026-03-03_102005.png)
+<Image align="center" src="https://files.readme.io/e66187848f5dcc4d958761befb34da46a3b6e7340fe6c8b12e1d47931419a25a-Screenshot_2026-03-03_102005.png" />
 
 Supported notification channels:
 
@@ -192,7 +192,7 @@ This configuration helps prevent unexpected service interruption due to depleted
 
 The Price Settings tab includes a safeguard related to model execution.
 
-![](https://files.readme.io/1bb143aac9cbf60af18ef82988450b6ccf763190ada120188c7ecea1df3d7f8d-Screenshot_2026-03-03_102034.png)
+<Image align="center" src="https://files.readme.io/1bb143aac9cbf60af18ef82988450b6ccf763190ada120188c7ecea1df3d7f8d-Screenshot_2026-03-03_102034.png" />
 
 ### **Accept Models Without Price Settings**
 
@@ -211,7 +211,7 @@ This setting should only be enabled when you fully understand the billing implic
 
 The Privacy Settings tab controls whether client IP addresses are recorded in logs.
 
-![](https://files.readme.io/4779563a8be742811e665377823b520d36ff3210af5af73689d45c76cdcb4f59-Screenshot_2026-03-03_102048.png)
+<Image align="center" src="https://files.readme.io/4779563a8be742811e665377823b520d36ff3210af5af73689d45c76cdcb4f59-Screenshot_2026-03-03_102048.png" />
 
 ### **Record Request and Error Log IP**
 
