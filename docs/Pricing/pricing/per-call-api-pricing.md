@@ -7,7 +7,7 @@ metadata:
 ---
 This page explains the pricing model for all non-LLM APIs available through AISA.
 
-![](https://files.readme.io/6b7da6af2757249721b675da2f7242cad46efa54a580fb16fd3713994bc15867-image.png)
+<Image align="center" src="https://files.readme.io/6b7da6af2757249721b675da2f7242cad46efa54a580fb16fd3713994bc15867-image.png" />
 
 These APIs use a **fixed per-request billing model**. Each successful request to an endpoint incurs a predefined charge, independent of response size, token count, or processing time.
 
