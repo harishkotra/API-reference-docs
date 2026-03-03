@@ -5,7 +5,7 @@ hidden: false
 metadata:
   robots: index
 ---
-<Image border={false} src="https://files.readme.io/6f56b7817fa447b611916e682fdbab0c53080333b8c298491bd6af03a32cc445-Screenshot_2026-02-05_115433.png" />
+<Image align="center" src="https://files.readme.io/6f56b7817fa447b611916e682fdbab0c53080333b8c298491bd6af03a32cc445-Screenshot_2026-02-05_115433.png" />
 
 The API Keys page lets you create, manage, and control access to AISA APIs. API keys are required to authenticate requests from your applications and services.
 
@@ -13,7 +13,7 @@ From this page, you can generate new keys, configure limits and restrictions, mo
 
 ## **Creating an API Key**
 
-<Image align="center" border={false} src="https://files.readme.io/ee911d20ed2dda607fecc42db0aef4cd91f6d6cce385140652d3c3c5a459a692-api-key.gif" />
+<Image align="center" src="https://files.readme.io/ee911d20ed2dda607fecc42db0aef4cd91f6d6cce385140652d3c3c5a459a692-api-key.gif" />
 
 To create a new API key:
 
@@ -102,7 +102,7 @@ Each key supports the following actions:
 
 Click **Edit** to update an existing API key’s configuration.
 
-<Image border={false} src="https://files.readme.io/d8d9b789a6d083f55c8508b8fd1473d1d34667735ff43bbe6399e1540c950a10-Screenshot_2026-02-05_115449.png" />
+<Image align="center" src="https://files.readme.io/d8d9b789a6d083f55c8508b8fd1473d1d34667735ff43bbe6399e1540c950a10-Screenshot_2026-02-05_115449.png" />
 
 The edit panel includes the following sections:
 
