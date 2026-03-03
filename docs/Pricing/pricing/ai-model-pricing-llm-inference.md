@@ -7,7 +7,7 @@ metadata:
 ---
 This page outlines the pricing structure for all AI models available through AISA’s unified LLM inference API.
 
-![](https://files.readme.io/d81b33140bb451dea692d890a76c6b6e970f988b289e0d56045d3d405a869a56-image.png)
+<Image align="center" src="https://files.readme.io/d81b33140bb451dea692d890a76c6b6e970f988b289e0d56045d3d405a869a56-image.png" />
 
 LLM usage is billed based on token consumption. Each request is charged separately for:
 
