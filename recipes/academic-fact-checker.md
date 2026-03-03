@@ -1,7 +1,7 @@
 ---
 title: Academic Fact Checker
 description: Verify claims using Smart Search + GPT synthesis.
-hidden: true
+hidden: false
 recipe:
   color: '#018FF4'
   icon: 📑
